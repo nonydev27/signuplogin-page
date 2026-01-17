@@ -1,7 +1,7 @@
 export default function Signup() {
   return (
     <>
-      <div className="">
+      <div className="flex">
         {/*  Declaring inputs in sections*/}
         {/* Section 1(First && Surname) */}
         <div>
@@ -14,6 +14,10 @@ export default function Signup() {
           <input type="text" name="email" id="" placeholder="Email" />
           <input type="password" name="password" id="" placeholder="password" />
         </div>
+
+        {/* Section 3(Contact && DOB)*/}
+        <input type="text" name="" id="" placeholder="Contact" />
+        <input type="date" name="" id="" placeholder="dob" />
       </div>
     </>
   );
