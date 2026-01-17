@@ -1,9 +1,13 @@
 export default function App() {
   return (
     <>
-      <div className="h-4 w-2 bg-amber-500 ">
+      <div className="">
         {/*  Declaring inputs*/}
-        <div></div>
+        <div>
+          <input type="text" placeholder="Firstname" />
+          <input type="text" placeholder="Surname" />
+          <input type="text" placeholder="Firstname" />
+        </div>
       </div>
     </>
   );
