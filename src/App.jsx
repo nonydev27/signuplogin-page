@@ -1,19 +1,8 @@
-export default function App() {
-  return (
-    <>
-      <div className="">
-        {/*  Declaring inputs in sections*/}
-        {/* Section 1(First && Surname) */}
-        <div>
-          <input type="text" placeholder="Firstname" />
-          <input type="text" placeholder="Surname" />
-        </div>
+import Signup from "./Components/Signup";
+import "./index.css";
 
-        {/* Section 2() */}
-        <div>
-          <input type="text" />
-        </div>
-      </div>
-    </>
-  );
+function App() {
+  return <Signup />;
 }
+
+export default App;
