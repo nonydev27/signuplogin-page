@@ -22,8 +22,10 @@ export default function Signup() {
           </div>
 
           {/* Section 3(Contact && DOB)*/}
-          <input type="text" name="" id="" placeholder="Contact" />
-          <input type="date" name="" id="" placeholder="dob" />
+          <div className="col col-2">
+            <input type="text" name="" id="" placeholder="Contact" />
+            <input type="date" name="" id="" placeholder="dob" />
+          </div>
         </div>
       </div>
     </>
