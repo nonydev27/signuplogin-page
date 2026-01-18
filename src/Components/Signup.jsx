@@ -2,7 +2,7 @@ export default function Signup() {
   return (
     <>
       <div className="flex justify-center items-center h-screen">
-        <div className="p-10 bg-blue-300 rounded-2xl">
+        <div className="p-10 bg-blue-300 rounded-3xl">
           {/*  Declaring inputs in sections*/}
           {/* Section 1(Firstname */}
           <div className="col p-4">

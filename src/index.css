@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+html {
+  @apply bg-black;
+}
+
+input {
+  @apply uppercase text-white font-bold;
+}
