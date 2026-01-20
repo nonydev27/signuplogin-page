@@ -5,5 +5,9 @@ html {
 }
 
 input {
-  @apply uppercase text-white font-bold;
+  @apply uppercase text-white font-bold border-b-2 m-4;
+}
+
+input:focus {
+  @apply border-0;
 }
